@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_about_us"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.mehakmeet.btbapp.about_us">
+
+    <TextView
+        android:text="VYOM BHUSHAN- 16BCE0066
+MEHAKMEET SINGH- 16BCE0376"
+        android:textSize="23sp"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="237dp"
+        android:id="@+id/textView5" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/cover"
+        android:id="@+id/imageView3"
+        android:layout_alignBottom="@+id/textView5"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="127dp" />
+</RelativeLayout>

@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "42456071391",
+    "firebase_url": "https://btb-app-451a7.firebaseio.com",
+    "project_id": "btb-app-451a7",
+    "storage_bucket": "btb-app-451a7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:42456071391:android:af2887952dece5ca",
+        "android_client_info": {
+          "package_name": "com.example.mehakmeet.btbapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "42456071391-pekdhu91cr1t8dnh16061992t50nbea9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.mehakmeet.btbapp",
+            "certificate_hash": "c97a45f99a09b2e4232bd945e34218e495142d39"
+          }
+        },
+        {
+          "client_id": "42456071391-3dpb6va448c1o1l817nehd7si9tarkau.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCJ7dHPu06SVIyIHHBzFCVqn9mFRZqQbC8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "42456071391-3dpb6va448c1o1l817nehd7si9tarkau.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

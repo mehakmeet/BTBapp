@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_intented"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.mehakmeet.btbapp.Intented_Activity">
+
+    <TextView
+        android:text="Bus Agency"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/bus_ag"
+        android:textColor="@android:color/black"
+        android:textSize="30sp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:text="BUS NUMBER: "
+        android:layout_width="wrap_content"
+        android:textSize="15sp"
+        android:textColor="@android:color/black"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/bus_ag"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="70dp"
+        android:id="@+id/bus_numb" />
+
+    <TextView
+        android:text="TOTAL AMOUNT:"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_below="@+id/seat_number"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="121dp"
+        android:id="@+id/total" />
+
+    <Button
+        android:text="OK"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="21dp"
+        android:id="@+id/ok"
+        android:layout_margin="20dp"
+        android:background="@android:drawable/editbox_background_normal"
+        android:layout_alignParentBottom="true"
+        android:layout_alignEnd="@+id/bus_ag"
+        android:layout_marginEnd="22dp" />
+
+    <Button
+        android:text="Cancel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/cancel"
+        android:layout_margin="20dp"
+        android:background="@android:drawable/editbox_background_normal"
+        android:layout_alignBaseline="@+id/ok"
+        android:layout_alignBottom="@+id/ok"
+        android:layout_toEndOf="@+id/bus_ag"
+        android:layout_marginStart="50dp" />
+
+    <TextView
+        android:text="Seats Available:"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:textSize="15sp"
+        android:textColor="@android:color/black"
+        android:id="@+id/seats_available"
+        android:layout_below="@+id/bus_numb"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:text="Seat Number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="41dp"
+        android:textSize="15sp"
+        android:textColor="@android:color/black"
+        android:id="@+id/seat_number"
+        android:layout_below="@+id/seats_available"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:text="   to  "
+        android:textSize="20sp"
+        android:textColor="@android:color/holo_orange_dark"
+        android:textAlignment="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="53dp"
+        android:id="@+id/places"
+        android:layout_below="@+id/seat_number"
+        android:layout_alignParentStart="true" />
+
+    <RelativeLayout
+        android:layout_width="260dp"
+        android:layout_height="130dp"
+        android:alpha="0"
+        android:id="@+id/dialog_box"
+        android:background="@color/colorPrimary"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Total amount to be paid: "
+            android:textSize="15sp"
+            android:id="@+id/amount_paid"
+            android:textColor="@android:color/white"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Click OK to confirm"
+            android:textStyle="bold"
+            android:textSize="15sp"
+            android:layout_marginTop="40dp"
+            android:textColor="@android:color/white"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="70dp"
+            android:layout_marginLeft="15dp"
+            android:text="OK"
+            android:background="@android:color/holo_green_light"
+            android:id="@+id/ok2"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="70dp"
+            android:text="Cancel"
+            android:background="@android:color/holo_green_light"
+            android:id="@+id/cancel2"
+            android:layout_marginLeft="150dp"/>
+
+    </RelativeLayout>
+
+</RelativeLayout>

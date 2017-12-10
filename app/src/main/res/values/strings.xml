@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">BTB app</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_clicked_bus_search">Map</string>
+    <string name="action_add_favourite">Add Agency as favorite</string>
+    <string name="action_play_next">Contacts of this agency</string>
+</resources>
